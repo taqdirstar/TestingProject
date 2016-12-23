@@ -1,7 +1,7 @@
 # Lifelog Mapping and Representation (LLMR)
 <!-- make your own badges from here: http://shields.io/ -->
 [![Version](https://img.shields.io/badge/mining%20minds-version%202.5-green.svg)](http://www.miningminds.re.kr/english/)
-[![License](https://img.shields.io/badge/Apache%20License%20-Version%202.0-yellowgreen.svg)
+[![License](https://img.shields.io/badge/Apache%20License%20-Version%202.0-yellowgreen.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 
 --------------------------
@@ -20,10 +20,8 @@
     - [2.3 Usage](#23-usage)
 	
 - [3. Features](#3-features)
-    - [3.1 Use bullets](#31-use-bullets)
    
-- [4. Contributing](#4-contributing)
-    - [4.1 Optional](#41-optional)
+- [4. Contribution](#4-contribution)
    
 - [5. Author](#5-author)
 
@@ -164,12 +162,12 @@ Example:
 Once environment has been setup the user can use the Life-log mapping and representation service to persist and fetch different data. User can define own methods to persist the required and customized data into the 
 lifelog. The users can use the methods without modification and customization. When user want to customize and add more functionality into it then follow these steps in projects "MMDataCurationRestfulService" and 
 "IntermediateDatabaseLibrary" source code.
-	*	Add new required table in database "DBMiningMindsV1_5".
-	*	Add Entity class for new added table in corresponding datamodel package e.g. "org.uclab.mm.datamodel.dc".
-	*	Add adapter class for new added table with all required CRUD operations in correspinding adapter package e.g. "org.uclab.mm.datamodel.dc.adapter"
-	*	Add the abstract methods of above CRUD operations in abstract class "AbstractDataBridge".
-	*	Add implementation of the abstract methods in "DatabaseStorage" class.
-	*	call these new created methods by interface in correspinding resource of Restful service "MMDataCurationRestfulService".
+*	Add new required table in database "DBMiningMindsV1_5".
+*	Add Entity class for new added table in corresponding datamodel package e.g. "org.uclab.mm.datamodel.dc".
+*	Add adapter class for new added table with all required CRUD operations in correspinding adapter package e.g. "org.uclab.mm.datamodel.dc.adapter"
+*	Add the abstract methods of above CRUD operations in abstract class "AbstractDataBridge".
+*	Add implementation of the abstract methods in "DatabaseStorage" class.
+*	call these new created methods by interface in correspinding resource of Restful service "MMDataCurationRestfulService".
 
 # 3. Features
 
@@ -179,7 +177,7 @@ Write the main features
 - Fine-grained Information access 2: Processable and procedural format to all layers and modules of MM Platform.
 - Extensible Data Model 3: Integratable new models based on the different input data sources.
 
-# 4. Contributing
+# 4. Contribution
 
 In this implementation, we are contributing a flexible and scalable data model to represent heterogeneous data and life-log information to find users behavior and provide recommendations based on life-log information. 
 
