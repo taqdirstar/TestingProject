@@ -49,7 +49,7 @@ occurred then the system provides the right recommendation at right time.
 The expert driven knowledge acquisition is mainly include Two core components; The authoring environment, called Intelligent Knowlege Authoring Tool (I-KAT) and the sitution reasoner. 
 The I-KAT is developed according to Spring MVC pattern as a maven project. The situation reasoner is implemented built-in to the knowledge-base as T-SQL stored-procedure.
 
-### 1.1.1 I-KAT Core-Compnents: 
+### 1.1.1 I-KAT Core-Compnents 
 The expert driven knowlege acquisition support knowledge from experts and provides reasoning based on situations occured in life-log. 
 The authroing environment is developed to make ease in acquisition of knowledge from experts and support situation-based indexing to the
 newly created rules. Furthermore, the enviornment is accompanied with situation-based reasoning to enable rules selection based on situations. 
@@ -97,7 +97,7 @@ Following are detailes of implementation component.
 		slot for adding multiple conditions of a particular rule, saparate slot for multiple conclusions of the rule. The rule editor also facilitates the domain experts to select
 		required conditional facts as situations. The selected situations are using by life-log monitor to find the abnormal situations of the user.
 		
-### 1.1.2 Situation Reasoner:
+### 1.1.2 Situation Reasoner
 Situation Reasoner is T-SQL based stored procedure [usp_SituationBasedReasoner] which match the candidate rules based on the situation provided as an input. 
 It expects the situation and produce set of candidate rules which match to the intended situations. In order to capture the complex situation it explictly 
 consumes the total number of attributes in the situation.
