@@ -41,6 +41,7 @@ service curation layer for better quality of service. In Expert-driven approach,
 intervention of knowledge engineers. For rule authoring, Knowledge Acquisition Tool is built that acquires knowledge from domain expert. The proposed system provides situation 
 based indexing in rules of knowledge base. The situations in rules allow the Life-log monitor to observe the defined situations for users, whenever the alarming situations 
 occurred then the system provides the right recommendation at right time.
+[Fig: Images/IKATArchitecture](github.com)
  
 ## 1.1 Core Implementation
 
